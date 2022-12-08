@@ -1,0 +1,155 @@
+html{
+    background-color: black;
+    color: white;
+    scroll-behavior: smooth;
+    background-image: url('./images/arcadeshot.png');
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+
+    
+}
+body{
+    margin-top: 100px;
+}
+body a{
+    text-decoration: none;
+}
+body a:hover{
+    text-decoration: none;
+    color: white;
+
+}
+body a:active{
+    text-decoration: none;
+    color: white;
+}
+body a:visited{
+    text-decoration: none;
+    color: white;
+}
+body a:link{
+    text-decoration: none;
+    color: white;
+}
+#navbar{
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    /* float: left; */
+    /* display: flex; */
+    width: 100%;
+    background-color: blue;
+    /* float: left; */
+    z-index: 9999;
+    max-height: 85px;
+}
+#navbar img{
+    /* float: left; */
+    width: 25%;
+    max-width: 250px;
+    padding-left: 20px;
+    max-height: 85px;
+}
+#navbar ul{
+float: right;
+padding-top: 10px;
+padding-right: 20px;
+font-size: larger;
+margin-right: -20px;
+}
+#navbar a{
+    color: white;
+    
+}
+#navbar li{
+    list-style-type: none;
+    display: inline;
+    padding:40px 1px;
+    transition: .5s;
+    margin-right: -5px;
+    
+}
+#navbar li a{
+    padding: 40px 32px
+}
+#navbar li:hover{
+    background-color: black;
+}
+.container{
+    border: 12px white groove;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 30px 20%;
+    /* box-shadow: 5px 5px black; */
+    text-shadow: 5px 5px black;
+    background: rgba(0, 0, 0, .5)
+    /* background: linear-gradient(180deg,transparent,blue); */
+}
+.container img{
+    display: block;
+    max-width: 250px;
+    margin: 0px auto;
+}
+.heading{
+text-align: center;
+
+}
+.bodytext{
+    text-align: left;
+}
+.gamebodytext{
+    width: 100%;
+}
+.gamelogo{
+width: 100% !important;
+height: 80%;
+}
+#gamethumbnail{
+    display:flex;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    
+    /* margin: 0px 10%; */
+
+}
+.gamethumbnail{
+    border: 5px white groove;
+    border-radius: 25px;
+    padding: 10px;
+    /* width: 25%; */
+    margin: 10px;
+    padding: 10px;
+    min-width: 20%;
+    max-width: 300px;
+    text-shadow: 5px 5px black;
+    background: rgba(0, 0, 0, .5);
+}
+
+.gamethumbnail a{
+    width: 100%;
+}
+.gamethumbnail span{
+    width: 100%;
+    position: relative;
+}
+.gamethumbnaillist{
+
+}
+.gamecontainer img{
+    height: 150px;
+}
+.gamecontainer{
+    display: block;
+    height: 300px;
+    overflow-y: hidden;
+    transition: 1s;
+}
+.gamecontainer:hover{
+    height: auto;
+}
+/* @keyframes stars{
+    0%{background-position: center ;}
+    100%{background-position: bottom;}
+} */
